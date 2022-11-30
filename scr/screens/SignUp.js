@@ -4,6 +4,7 @@ import { StyleSheet, Text, TextInput, View, TouchableOpacity,
   Image, Button, Alert,
 } from 'react-native';
 import Parse from 'react-native';
+
 export default function App({ navigation })  {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -51,7 +52,7 @@ export default function App({ navigation })  {
       </View>
 
       <TouchableOpacity onPress={() => navigation.navigate('Login')}>
-        <Text style={styles.forgot_button}>Login Here....?</Text>
+        <Text style={styles.login_button}>Login Here....?</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.signupBtn}>

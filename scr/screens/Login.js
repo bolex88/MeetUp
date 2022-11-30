@@ -32,7 +32,7 @@ export default function App({ navigation }) {
         </View>
 
         <TouchableOpacity onPress={() => navigation.navigate('SignUp')}>
-            <Text style={styles.forgot_button}>Register Here....?</Text>
+            <Text style={styles.signup_button}>New Here....? Register </Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.loginBtn}>
